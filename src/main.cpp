@@ -21,20 +21,27 @@ int main()
             wm.exitSystem();
             break;
         case 1: // 添加职工
+            wm.Add_Emp();
             break;
         case 2: // 显示职工
+            wm.Show_Emp();
             break;
         case 3: // 删除职工
+            wm.Del_Emp();
             break;
-        case 4: //
+        case 4: // 修改职工信息
+            wm.Mod_Emp();
             break;
-        case 5: //
+        case 5: // 查找职工
+            wm.Find_Emp();
             break;
-        case 6: //
+        case 6: // 排序职工
+            wm.Sort_Emp();
             break;
-        case 7: // 排序职工
+        case 7: // 清空文件
+            wm.Clean_File();
             break;
-        default: // 清空文件
+        default: //
             system("cls");
         }
     }
